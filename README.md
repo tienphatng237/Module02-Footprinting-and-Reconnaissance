@@ -144,7 +144,6 @@ db_nmap -sS -A 172.16.1.74
 **Result:** Metasploit identifies OS, SSH service, and Linux kernel range.  
 
 ![img12](images/png12.png)
-![img13](images/png13.png)
 
 ---
 
@@ -156,7 +155,7 @@ services
 ```  
 **Result:** One service identified—SSH on port 22.  
 
-![img14](images/png14.png)
+![img13](images/png13.png)
 
 ---
 
@@ -170,7 +169,7 @@ search portscan
 ```  
 **Result:** Metasploit displays available port scanning modules.  
 
-![img15](images/png15.png)
+![img14](images/png14.png)
 
 ---
 
@@ -191,7 +190,7 @@ show options
 ```  
 **Result:** Module options such as RHOSTS and THREADS are shown.  
 
-![img16](images/png16.png)
+![img15](images/png15.png)
 
 ---
 
@@ -220,7 +219,8 @@ run
 ```  
 **Result:** Open ports detected: 80, 135, 139, 443.  
 
-![img17](images/png17.png)
+![img16](images/png16.png)
+
 
 ---
 
@@ -240,7 +240,7 @@ show options
 ```  
 **Result:** Module parameters for SMB scanning displayed.  
 
-![img18](images/png18.png)
+![img17](images/png17.png)
 
 ---
 
@@ -270,7 +270,7 @@ run
 **Result:**  
 SMB-enabled hosts discovered. OS versions recovered, including Windows 10 and Windows 11 systems.  
 
-![img19](images/png19.png)
+![img18](images/png18.png)
 
 ---
 
@@ -281,7 +281,8 @@ hosts
 ```  
 **Result:** Host database updated with OS information from SMB and Nmap results.  
 
-![img20](images/png20.png)
+![img19](images/png19.png)
+
 
 ---
 
